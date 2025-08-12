@@ -1,0 +1,2 @@
+# Dune-Sales-Analysis-An-Exploratory-Analysis-with-Python
+Dune, an online retail company, needs to understand its sales performance and customer behavior to improve revenues and profitability. The core questions are: Which product and customer segments drive the most sales and profit? How does performance vary by time and geography? Answering these will help executives refine strategy and boost growth.
