@@ -79,50 +79,70 @@ These insights inform decisions in marketing, inventory, and customer engagement
 
 ## Key Findings
 
-**Customer Segments**
-- Low and Medium tier customers account for ~74% of transactions.
-- High-tier customers, though fewer, may yield higher profit per order.
-- Age group 31–40 dominates; gender split is nearly even.
+### 1. Customer Segments
+- **74%** of transactions are from **Low** and **Medium** tier customers.
+- High-tier customers are fewer but may yield higher margins per sale.
+- Age distribution skews to **31–40 years**; gender split is nearly **50/50**.
+- **Implication**: Retaining Low/Medium tier customers and upselling them can boost volume, while high-tier shoppers offer premium opportunities.
 
-**Product Profitability**
-- Phones generate over 50% of total revenue but just ~14% of profit.
-- Accessories contribute ~34% of revenue but ~42% of profit, making them the highest-margin category.
-- Clothing underperforms in both revenue and profit.
+### 2. Product Profitability
+- **Phones**: Over **50%** of revenue but only **14%** of total profit → thin margins.
+- **Accessories**: ~**34%** of revenue, **42%** of profit → highest-margin category.
+- **Clothing**: Lowest performer in both revenue and profit.
+- **Implication**: Optimise pricing and supplier negotiations for Phones; prioritise Accessories for promotions and inventory.
 
-**Geographic Insights**
-- Lagos, Abuja, and Abia account for over half of all transactions.
-- Indicates opportunity to focus marketing and logistics on top-performing regions.
+### 3. Geography
+- Sales concentrated in **Lagos, Abuja, and Abia** (over 50% of transactions).
+- Other states contribute significantly less.
+- **Implication**: Focus marketing/logistics on top states; approach underperforming states cautiously.
 
-**Seasonal Trends**
-- 2015 saw low early-year profits with mid-year spikes.
-- 2016 showed stronger performance overall, peaking mid-year.
+### 4. Profitability
+- **86%** of transactions are profitable; **14%** result in losses.
+- Losses may stem from returns, pricing errors, or promotions.
+- **Implication**: Investigate and address recurring loss drivers.
+
+### 5. Seasonality
+- 2015: Low early-year profits, mid-year surge.
+- 2016: Stronger overall performance, slight decline toward year-end.
+- **Implication**: Plan marketing campaigns around mid-year peaks; adjust inventory to meet seasonal demand.
+---
+
+The analysis leveraged **Python**, **Pandas**, **Seaborn**, and **Matplotlib** to uncover trends, relationships, and performance drivers.
 
 ---
 
 ## Recommendations
 
-1. **Prioritise Accessories**: Increase promotions and ensure adequate inventory for high-margin items.
-2. **Optimise Phone Sales**: Negotiate better supplier costs or adjust pricing; bundle with accessories.
-3. **Target Low/Medium Tiers**: Loyalty programmes could increase repeat purchases.
-4. **Focus on Top States**: Concentrate resources on Lagos, Abuja, and Abia.
-5. **Plan Around Seasonality**: Align campaigns with historical demand peaks.
+1. **Boost High-Margin Lines**  
+   Increase marketing and ensure stock availability for high-profit accessories.
+
+2. **Optimise Phone Sales**  
+   Review pricing and supplier terms; cross-sell accessories to raise order profitability.
+
+3. **Target Customer Segments**  
+   Implement loyalty programmes for Low/Medium tiers and tailor promotions by age group.
+
+4. **Focus on Top Regions**  
+   Allocate more resources to Lagos, Abuja, and Abia; explore partnerships in high-demand regions.
+
+5. **Leverage Seasonal Trends**  
+   Align promotions with peak demand months; manage inventory to avoid stockouts.
+
 
 ---
 
-## Future Enhancements
+## Conclusion
+By applying structured EDA, Dune can use these findings to:
+- Increase profit margins  
+- Strengthen customer retention  
+- Optimise regional and seasonal strategies  
 
-- Drill into product subcategories for more targeted strategies.
-- Apply clustering to develop data-driven customer personas.
-- Conduct A/B testing for regional or segment-specific promotions.
-- Build real-time dashboards in Power BI or Tableau.
 
----
-
-## Personal Reflection
-
-As a Yoruba-born analyst working within the UK data landscape, I bridge cultural context and commercial insight. This project demonstrates my ability to combine storytelling with technical rigour, delivering clear, actionable insights grounded in robust statistical analysis.
-
----
+## Tools & Libraries
+- Python  
+- Pandas  
+- Seaborn  
+- Matplotlib  
 
 ## Repository Structure
 
